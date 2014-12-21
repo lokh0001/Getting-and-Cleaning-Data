@@ -2,9 +2,9 @@ Variables
 
 subject                    1..2
     Subject number
-                           1..30 .Unique identifier assigned to each subject
+                           1..30
 
-label                      6..18
+label                
     Acitivity label
                            "WALKING"
                            "WALKING_UPSTAIRS"
@@ -12,138 +12,6 @@ label                      6..18
                            "SITTING"
                            "STANDING"
                            "LAYING"
-
-tbodyaccmeanx              12
-
-tbodyaccmeany              12
-
-tbodyaccmeanz              12
-
-tbodyaccstdx               12
-
-tbodyaccstdy               12
-
-tbodyaccstdz               12
-
-tgravityaccmeanx           12
-
-tgravityaccmeany           12
-  
-tgravityaccmeanz           12
-
-tgravityaccstdx            12
-
-tgravityaccstdy            12
-
-tgravityaccstdz            12
-
-tbodyaccjerkmeanx          12
-
-tbodyaccjerkmeany          12
-
-tbodyaccjerkmeanz          12
-  
-tbodyaccjerkstdx           12
-
-tbodyaccjerkstdy           12
-
-tbodyaccjerkstdz           12
-
-tbodygyromeanx             12
-
-tbodygyromeany             12
-
-tbodygyromeanz             12
-
-tbodygyrostdx              12
-
-tbodygyrostdy              12
-
-tbodygyrostdz              12
-
-tbodygyrojerkmeanx         12
-
-tbodygyrojerkmeany         12
-
-tbodygyrojerkmeanz         12
-
-tbodygyrojerkstdx          12
-
-tbodygyrojerkstdy          12
-
-tbodygyrojerkstdz          12
-
-tbodyaccmagmean            12
-
-tbodyaccmagstd             12
-  
-tgravityaccmagmean         12
-
-tgravityaccmagstd          12
-
-tbodyaccjerkmagmean        12
-
-tbodyaccjerkmagstd         12
-
-tbodygyromagmean           12
-
-tbodygyromagstd            12
-
-tbodygyrojerkmagmean       12
-
-tbodygyrojerkmagstd        12
-
-fbodyaccmeanx              12
-
-fbodyaccmeany              12
-
-fbodyaccmeanz              12
-
-fbodyaccstdx               12
-
-fbodyaccstdy               12
-
-fbodyaccstdz               12
-
-fbodyaccjerkmeanx          12
-
-fbodyaccjerkmeany          12
-
-fbodyaccjerkmeanz          12
-
-fbodyaccjerkstdx           12
-
-fbodyaccjerkstdy           12
-
-fbodyaccjerkstdz           12
-
-fbodygyromeanx             12
-
-fbodygyromeany             12
-
-fbodygyromeanz             12
-
-fbodygyrostdx              12
-
-fbodygyrostdy              12
-
-fbodygyrostdz              12
-
-fbodyaccmagmean            12
-
-fbodyaccmagstd             12
-
-fbodybodyaccjerkmagmean    12
-
-fbodybodyaccjerkmagstd     12
-
-fbodybodygyromagmean       12
-
-fbodybodygyromagstd        12
-
-fbodybodygyrojerkmagmean   12
-
-fbodybodygyrojerkmagstd    12
 
 Data
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
